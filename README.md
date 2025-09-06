@@ -123,7 +123,6 @@ No single prompting technique is universally effective. The **best performance c
 
 Thus, combining these techniques results in a chatbot that is **accurate, empathetic, logical, and user-friendly**, ultimately enhancing **customer satisfaction and trust** in retail services.  
 
----
 
 ## Result
 The experiment successfully demonstrated that **hybrid prompting strategies outperform individual techniques**. By combining Few-shot, Role-based, Chain-of-thought, and Instruction-based prompting, we can design an **AI chatbot that balances accuracy, empathy, clarity, and problem-solving**, making it highly effective for retail customer support.
