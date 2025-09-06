@@ -1,16 +1,14 @@
 # Ex-4: Scenario-Based Report Development Utilizing Diverse Prompting Techniques
 
----
+
 
 ## Objective
 The goal of this experiment is to design and develop an AI-powered chatbot that can handle customer inquiries, provide support, and improve customer experience in a retail environment. Prompts were created using various AI prompting techniques to guide experimentation, data collection, analysis, and report creation.
 
----
 
 ## Aim
 To evaluate and compare multiple prompting techniques in AI-based chatbot development for retail use cases. The aim is not only to test whether the chatbot provides correct answers but also to assess **clarity, accuracy, empathy, personalization, logical reasoning, and overall customer satisfaction.**
 
----
 
 ## Algorithm
 1. **Identify Use Cases**
@@ -51,7 +49,6 @@ To evaluate and compare multiple prompting techniques in AI-based chatbot develo
 8. **Conclude**
    - Recommend the best hybrid approach for chatbot deployment.  
 
----
 
 ## Prompts, Outputs & Observations
 
@@ -65,7 +62,6 @@ To evaluate and compare multiple prompting techniques in AI-based chatbot develo
 | Few-shot   | "Yes, Nike running shoes in size 9 are available. Should I add them to your cart?" | Natural and sales-driven, increases engagement.                             |
 | Role-based | "Yes! Nike running shoes in size 9 are in stock. Would you like me to show available colors and styles?" | Engaging, personalized, feels like a real salesperson.                      |
 
----
 
 ### Scenario 2: Order Tracking
 **Customer Query:** *“Where is my order #12345?”*
@@ -76,8 +72,6 @@ To evaluate and compare multiple prompting techniques in AI-based chatbot develo
 | Few-shot   | "Order #12345 has been shipped and will arrive tomorrow evening."        | Accurate and reassuring; improves satisfaction.                             |
 | Role-based | "I understand your concern. Order #12345 has been dispatched and should reach you tomorrow. Thank you for your patience!" | Adds empathy and reassurance along with accuracy.                           |
 
----
-
 ### Scenario 3: Return & Refund Policy
 **Customer Query:** *“Can I return a product if I don’t like it?”*
 
@@ -86,7 +80,6 @@ To evaluate and compare multiple prompting techniques in AI-based chatbot develo
 | Instruction-based | "Yes, you can return products within 30 days if unused and in original packaging." | Clear, direct, and accurate; good for policy-related queries.               |
 | Socratic          | "Was the item purchased in the last 30 days? Is it unused and in its original box? If yes, you are eligible for a return." | Encourages self-verification; less direct, may frustrate impatient users.   |
 
----
 
 ### Scenario 4: Troubleshooting
 **Customer Query:** *“My coffee maker is not working. What should I do?”*
@@ -96,7 +89,6 @@ To evaluate and compare multiple prompting techniques in AI-based chatbot develo
 | Chain-of-thought | "Step 1: Ensure the coffee maker is plugged in. Step 2: Refill the water tank. Step 3: Check if the filter is clogged. If the issue persists, contact our support team." | Structured and logical; provides actionable troubleshooting.                |
 | Persona-driven   | "Don’t worry, let’s fix this together! Please check the power cord, water tank, and filter. If it’s still not working, our team will gladly assist further." | Friendly, supportive, and stress-reducing; humanizes the chatbot.           |
 
----
 
 ## Comparative Evaluation Table
 
@@ -111,7 +103,6 @@ To evaluate and compare multiple prompting techniques in AI-based chatbot develo
 | Chain-of-thought | Excellent for reasoning and troubleshooting.          | Responses may be too long for simple queries.          |
 | Socratic         | Encourages critical thinking and self-verification.   | Can frustrate users who want quick answers.            |
 
----
 
 ## Analysis of Results
 - **Zero-shot prompting** was the least effective: vague and generic.  
@@ -121,7 +112,6 @@ To evaluate and compare multiple prompting techniques in AI-based chatbot develo
 - **Chain-of-thought prompting** was highly effective for **troubleshooting**.  
 - **Socratic prompting** had educational value but wasn’t practical for quick support.  
 
----
 
 ## Conclusion
 No single prompting technique is universally effective. The **best performance comes from a hybrid strategy**:  
